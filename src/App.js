@@ -53,6 +53,8 @@ const App = () => {
 		setFavourites(newFavouriteList);
 		saveToLocalStorage(newFavouriteList);
 	};
+  console.log (movies);
+  console.log (favourites);
 
 	return (
 		<div className='container-fluid movie-app'>
