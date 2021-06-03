@@ -5,7 +5,7 @@ const MovieList = (props) => {
 
 	return (
 		<>
-			{props.movies.map((movie, index) => (
+			{(props.movies.length > 0) ? props.movies.map((movie, index) => (
 				<div className='image-container d-flex justify-content-start col-md-3'
                 key={index}>
                 	<img src={movie.Poster} alt={movie.Title}></img>
@@ -16,7 +16,7 @@ const MovieList = (props) => {
 						<FavouriteComponent />
 					</div>
 				</div>
-			))}
+			)):''}
 		</>
 	);
 };
