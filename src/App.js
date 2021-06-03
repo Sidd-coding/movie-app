@@ -40,7 +40,9 @@ const App = () => {
 	};
 
 	const addFavouriteMovie = (movie) => {
+    console.log (movie);
 		const newFavouriteList = [...favourites, movie];
+    console.log (newFavouriteList);
 		setFavourites(newFavouriteList);
 		saveToLocalStorage(newFavouriteList);
 	};
