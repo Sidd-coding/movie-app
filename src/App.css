@@ -6,6 +6,7 @@ body {
 .movie-app> .row {
 	overflow-x: auto;
 	flex-wrap: nowrap;
+	height: auto;
 }
 
 
@@ -34,6 +35,19 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+.bssearch {
+	cursor: pointer;
+	height: 40px;
+    width: 35px;
+    background-color: #2196f3f7;
+    color: white;
+    border-radius: 4px;
+		
+}
 
-
+.form-control {
+	width: 228px;
+	display: inline-block;
+	border: 1px solid #2196f3f7;
+}
 
